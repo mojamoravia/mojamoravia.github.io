@@ -150,7 +150,7 @@ header {
 }
 
 .logo {
-	max-width: 120px;
+	max-width: 100px;
 }
 
 nav {
@@ -267,6 +267,10 @@ nav {
 	.nav-open .nav-toggle{
 		margin-right: calc(15% + 2em);
 	}
+
+	.logo {
+		max-width: 120px;
+	}
 }
 
 /* Scroll To Top */
@@ -353,15 +357,17 @@ nav {
 }
 
 .portfolio {
-	max-width: 80%;
+	max-width: 70%;
 	margin: 0 auto 3em auto;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+	grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
 	grid-gap: 1em 1em;
+	justify-content: center;
 }
 
 .portfolio-item {
 	background-color: var(--clr-accent);
+	width: fit-content;
 	overflow: hidden;
 }
 
