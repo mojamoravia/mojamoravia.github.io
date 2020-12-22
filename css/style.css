@@ -19,15 +19,15 @@
 	
 	--clr-light: #fff;
 	--clr-dark: #303030;
-	--clr-accent: #31bea6;
+	--clr-accent: #99cec5;
 	
 	--fs-h1: 3rem;
 	--fs-h2: 2.25rem;
 	--fs-h3: 1.25rem;
 	--fs-body: 1rem;
 
-	--bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .15),
-		0.125em 0.125em 0.25em rgba(0,0,0,.2);
+	--bs: 0.25em 0.25em 0.75em rgba(64, 99, 97, 0.15),
+		0.125em 0.125em 0.25em rgba(64, 99, 97, .2);
 }
 
 /* Declaring Custom Properties - Large Screens */
@@ -308,10 +308,27 @@ nav {
 	display: inline-block;
 }
 
+/* Intro Section - Small Screens */
+
+@media (max-width: 799px) and (min-width: 300px) {
+
+	.intro-img {
+		display: none;
+	}
+
+	.section-subtitle-intro {
+		margin-bottom: 3em;
+	}
+
+	.intro {
+		margin-top: 4em;
+	}
+}
+
 
 /* Intro Section - Large Screens */
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
 	.intro {
 		display: grid;
 		width: min-content;
@@ -366,7 +383,7 @@ nav {
 }
 
 .portfolio-item {
-	background-color: var(--clr-accent);
+	background-color: var(--clr-dark);
 	width: fit-content;
 	overflow: hidden;
 }
@@ -389,11 +406,15 @@ nav {
 
 /* About Me - Small Screens */
 
-@media (max-width: 600px) and (min-width: 300px) {
+@media (max-width: 799px) and (min-width: 300px) {
 
 	.portfolio {
 		max-width: 100%;
 		margin: 2em .2em;
+	}
+
+	.about-me-img {
+		display: none;
 	}
 }
 
@@ -414,7 +435,7 @@ nav {
 
 /* About Me - Large Screens */
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
 	.about-me {
 		display: grid;
 		grid-template-columns: 1fr 200px;
