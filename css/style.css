@@ -281,7 +281,7 @@ nav {
 	right: 1em;
 	bottom: 1em;
 	position: fixed;
-	z-index: 100;
+	z-index: 90;
 	font-size: var(--fs-h3);
 	background-color: var(--clr-light);
 	border: 2px solid var(--clr-accent);
