@@ -75,6 +75,22 @@ button {
 	outline-offset: 3px;
 }
 
+.scroll-top:focus,
+.scroll-icon:focus {
+	outline: none;
+}
+
+.scroll-top:active,
+.scroll-icon:active {
+	outline: none;
+}
+
+.scroll-top:visited,
+.scroll-icon:visited {
+	outline: none;
+}
+
+
 /* Typography */
 
 strong {
