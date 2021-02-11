@@ -10,8 +10,8 @@
 /* Declaring Custom Properties */
 
 :root{
-	--ff-primary: 'Work Sans', sans-serif;
-	--ff-secondary: 'Work Sans', monospace;
+	--ff-primary: 'Rubik', sans-serif;
+	--ff-secondary: 'Karla', monospace;
 	
 	--fw-reg: 300;
 	--fw-md: 500;
@@ -135,7 +135,8 @@ h3 {
 .section-subtitle {
 	margin: 0;
 	font-size: var(--fs-h3);
-	font-weight: var(--fw-md);
+	font-weight: var(--fw-bold);
+	font-family: var(--ff-secondary);
 }
 
 .section-subtitle-intro,
@@ -448,6 +449,11 @@ nav {
 	box-shadow: var(--bs);
 }
 
+.about-me-body {
+	font-family: var(--ff-secondary);
+	font-weight: var(--fw-md);
+}
+
 
 /* About Me - Large Screens */
 
@@ -517,6 +523,7 @@ footer a {
 .copyright {
 	font-size: var(--fs-body);
 	font-weight: var(--fw-reg);
+	color: var(--clr-light);
 }
 
 .social-list {
