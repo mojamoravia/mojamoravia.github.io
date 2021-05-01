@@ -10,3 +10,9 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 });
+
+// const itemToggle = document.querySelector('.portfolio-item');
+
+// itemToggle.addEventListener('hover', () => {
+//     document.body.classList.toggle('tag');
+// });

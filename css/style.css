@@ -412,11 +412,25 @@ nav {
 	transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
 				opacity 250ms linear;
 }
+.tag {
+	position: relative;
+	top: -50%;
+	z-index: 10;
+	color: var(--clr-light);
+	font-style: var(--ff-secondary);
+	font-size: var(--fs-h3);
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 1em;
+	width: 50%;
+	margin: auto;
+	padding: .5em .5em;
+}
 
 .portfolio-img:hover,
 .portfolio-item:focus .portfolio-img {
 	transform: scale(1.1);
-	opacity: .65;
+	opacity: .35;
 }
 
 .portfolio-item:focus {
