@@ -25,6 +25,9 @@
 	--fs-h2: 2.25rem;
 	--fs-h3: 1.25rem;
 	--fs-body: 1rem;
+	
+	--fs-social: 1.75rem;
+	--fs-caption: .75rem;
 
 	--bs: 0.25em 0.25em 0.75em rgba(64, 99, 97, 0.15),
 		0.125em 0.125em 0.25em rgba(64, 99, 97, .2);
@@ -156,7 +159,7 @@ h3 {
 }
 
 .footer-link {
-	font-size: var(--fs-h3);
+	font-size: var(--fs-body);
 }
 
 /* Header */
@@ -544,7 +547,8 @@ footer a {
 }
 
 .copyright {
-	font-size: var(--fs-body);
+	font-size: var(--fs-caption);
+	font-family: var(--ff-secondary);
 	font-weight: var(--fw-reg);
 	color: var(--clr-light);
 }
@@ -553,18 +557,18 @@ footer a {
 	list-style: none;
 	display: flex;
 	justify-content: center;
-	margin: 2em 0;
+	margin: 1em 0;
 	padding: 0;
-	font-size: var(--fs-h3);
+	font-size: var(--fs-social);
 
 }
 
 .social-list-item {
-	margin: 0 .5em;
+	margin: 0 .2em;
 }
 
 .social-list-link {
-	padding: .5em;
+	padding: .1em;
 }
 
 
