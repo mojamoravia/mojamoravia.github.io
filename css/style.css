@@ -172,7 +172,7 @@ header {
 }
 
 .logo {
-	max-width: 90px;
+	max-width: 96px;
 }
 
 
@@ -296,6 +296,37 @@ nav {
 	}
 }
 
+/* Next and Previous Work Buttons */
+
+.buttons-work {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 2em;
+	margin: 1em auto 0em auto;
+}
+
+.next-work-button,
+.previous-work-button {
+	text-align: center;
+	font-size: var(--fs-body);
+	background-color: var(--clr-accent);
+	padding: 8px 18px;
+	color: var(--clr-dark);
+	text-decoration: none;
+	font-family: var(--ff-secondary);
+	min-width: 6em;
+	
+}
+
+/* Next and Previous Buttons - Large Screens */
+
+@media (min-width: 800px) {
+
+	.buttons-work {	
+	max-width: 70%;
+	}
+}
+
 /* Scroll To Top */
 
 .scroll-top {
@@ -344,7 +375,8 @@ nav {
 	}
 
 	.intro {
-		margin-top: 4em;
+		margin-top: 3em;
+		text-align: center;
 	}
 }
 
