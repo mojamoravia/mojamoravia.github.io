@@ -302,7 +302,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	padding: 1em 2em;
-	margin: 1em auto 0em auto;
+	margin: 2em auto 3em auto;
 }
 
 .next-work-button,
@@ -351,7 +351,8 @@ nav {
 
 .intro {
 	position: relative;
-	margin: 1em auto;
+	margin: 2em auto;
+	padding: 3em 0;
 }
 
 .intro-img {
