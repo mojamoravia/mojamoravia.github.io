@@ -475,6 +475,20 @@ nav {
 	z-index: 2;
 }
 
+/* My Work - Small Screens*/
+
+@media (max-width: 799px) and (min-width: 300px) {
+
+	.portfolio-img {
+		transition: none;
+
+	.portfolio-img:hover,
+		.portfolio-item:focus .portfolio-img {
+			transform: none;
+			opacity: 1;
+		}
+}
+
 /* About Me - Small Screens */
 
 @media (max-width: 799px) and (min-width: 300px) {
@@ -488,11 +502,7 @@ nav {
 		display: none;
 	}
 
-	.portfolio-img:hover,
-	.portfolio-item:focus .portfolio-img {
-		transform: none;
-		opacity: 1;
-	}
+	
 }
 
 /* About Me */
