@@ -487,6 +487,12 @@ nav {
 	.about-me-img {
 		display: none;
 	}
+
+	.portfolio-img:hover,
+	.portfolio-item:focus .portfolio-img {
+		transform: none;
+		opacity: 1;
+	}
 }
 
 /* About Me */
