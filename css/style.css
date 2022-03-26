@@ -168,7 +168,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	padding: 1em 2em;
-	margin: 0 auto;
+	margin: 1em auto;
 }
 
 .logo {
@@ -285,6 +285,7 @@ nav {
 
 	header {	
 	max-width: 70%;
+	margin: 1em auto;
 	}
 
 	.nav-open .nav-toggle{
