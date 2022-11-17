@@ -461,7 +461,7 @@ nav {
 	padding: .5em .5em;
 }
 
-
+/* Solution for hover on small screens */
 
 @media(hover: hover) and (pointer: fine) {
 
